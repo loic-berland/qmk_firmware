@@ -35,10 +35,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * `---------------------------'
  */
 [_BASE] = LAYOUT_ortho_4x4(
-     TT(_FN), KC_MINUS, KC_KP_PLUS, KC_BSPACE, 
-		KC_7, KC_8, KC_9, KC_KP_ASTERISK, 
-		KC_4, KC_5, KC_6, KC_ENTER, 
-		KC_1, KC_2, KC_3, KC_0
+     TT(_FN), KC_PMNS, KC_KP_PLUS, KC_BSPACE, 
+		KC_P7, KC_P8, KC_P9, KC_KP_ASTERISK, 
+		KC_P4, KC_P5, KC_P6, KC_ENTER, 
+		KC_P1, KC_P2, KC_P3, KC_P0
 ),
 
 /* FN
